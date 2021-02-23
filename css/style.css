@@ -24,6 +24,8 @@ body {
     text-align: center;
 }
 
+
+
 .locate__container {
     position: absolute;
     display: flex;
@@ -208,6 +210,7 @@ h1,h2 {
 
 
 .section_2 {
+    max-width: 100%;
     margin: 0;
     background-color: #131313;
     color: #fafafa;
