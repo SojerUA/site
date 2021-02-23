@@ -57,6 +57,8 @@ h4 {
     background-size: cover;
 }
 
+
+
 .header__inner {
     padding-top: 25px;
     padding-left: 0;
@@ -222,11 +224,6 @@ h1,h2 {
     background-size: cover;
     max-width: 100%;
 }
-@media screen and (max-width 992px){
-    .view_background {
-        max-width: 767px;
-    }
-}
 
 
 
@@ -267,21 +264,6 @@ h1,h2 {
     position: relative;
 }
 
-@media screen and (max-width 1200px){
-    .barbers_list {
-        max-width: 970px;
-    }
-}
-@media screen and (max-width 992px){
-    .barbers_list {
-        max-width: 750px;
-    }
-}
-@media screen and (max-width 767px){
-    .barbers_list {
-        max-width: none;
-    }
-}
 
 .barber_colection {
     display: flex;
@@ -331,11 +313,6 @@ img.img_barbers {
     border-radius: 50%;
     max-width: 200px;
 }
-@media screen and (max-width 200px) {
-    .barber_foto_container {
-        max-width: 160px;
-    }
-}
 
 .view_section2_label {
     margin-top: 130px;
@@ -344,6 +321,9 @@ img.img_barbers {
     padding: 20px 0px;
     position: relative;
 }
+
+
+
 
 .footer_logo_section2 {
     max-width: 600px;
@@ -356,6 +336,8 @@ img.img_barbers {
     margin: 0 auto;
     position: relative;
 }
+
+
 
 
 .line {
@@ -381,6 +363,7 @@ img.img_barbers {
     color: #131313;
     margin: 0;
 }
+
 
 .view_section_3 {
     padding-top: 20px;
@@ -557,11 +540,15 @@ background-color: #351b1b54;
 
 
 .section_4 {
+    max-width: 100%;
     margin: 0;
     position: relative;
     background-color: #131313;
     color: #fafafa;
 }
+
+
+
 
 .view_section_4 {
     height: 950px;
@@ -892,6 +879,7 @@ background-color: #351b1b54;
 
 
 .section_5 {
+    max-width: 100%;
     margin: 0;
     background-color: #fafafa;
     color: #131313;
@@ -944,16 +932,6 @@ span.map_title {
     flex-wrap:wrap;
 }
 
-@media screen and(max-width 1050px){
-    .info_maps {
-        max-width: 767px;
-    }
-}
-@media screen and(max-width 750px){
-    .info_maps {
-        max-width: 320px;
-    }
-}
 
 
 .sector_1 {
@@ -964,21 +942,6 @@ span.map_title {
     padding-top: 20px;
 }
 
-@media screen and (max-width 1200px){
-    .sector_1 {
-        max-width: 970px;
-    }
-}
-@media screen and (max-width 992px){
-    .sector_1 {
-        max-width: 750px;
-    }
-}
-@media screen and (max-width 768px){
-    .sector_1 {
-        max-width: none;
-    }
-}
 
 
 .sector_2 {
@@ -989,21 +952,6 @@ span.map_title {
     padding-top: 20px;
 }
 
-@media screen and (max-width 1200px){
-    .sector_2 {
-        max-width: 970px;
-    }
-}
-@media screen and (max-width 992px){
-    .sector_2 {
-        max-width: 750px;
-    }
-}
-@media screen and (max-width 768px){
-    .sector_2 {
-        max-width: none;
-    }
-}
 
 
 
@@ -1087,11 +1035,6 @@ span.map_title {
     padding-top: 15px;
 }
 
-@media screen and(max-width 490px){
-    .info_adress {
-        max-width: none;
-    }
-}
 
 
 .info_button {
@@ -1105,11 +1048,6 @@ span.map_title {
     transition: all .2s ease-in;
 }
 
-@media screen and(max-width 490px){
-    .info_button {
-        max-width: none;
-    }
-}
 
 .info_button:hover {
     background-color: #1313130d;
@@ -1128,11 +1066,6 @@ span.map_title {
     transition: all .2s ease-in;
 }
 
-@media screen and(max-width 490px){
-    .tel_button {
-        max-width: none;
-    }
-}
 
 .tel_button:hover {
     background-color: #1313130d;
@@ -1150,11 +1083,6 @@ span.map_title {
     transition: all .2s ease-in;
 }
 
-@media screen and(max-width 490px){
-    .mail_button {
-        max-width: none;
-    }
-}
 
 
 .mail_button:hover {
