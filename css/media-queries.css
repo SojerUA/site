@@ -3,15 +3,11 @@
         max-width: 970px;
     }
 }
-
-
 @media screen and (max-width: 992px){
     .header {
         max-width: 750px;
     }
 }
-
-
 @media screen and (max-width: 767px){
     .header {
         max-width: none;
@@ -24,46 +20,28 @@
     }
 }
 
-
 @media screen and (max-width: 992px){
     .section_2 {
         max-width: 750px;
     }
 }
 
-
 @media screen and (max-width: 767px){
     .section_2 {
         max-width: none;
     }
 }
-
-
-@media screen and (max-width: 992px){
-    .view_background {
-        max-width: 767px;
+@media screen and (max-width:505px) {
+    .barber_colection {
+        margin: 24px 12px;
     }
 }
 
-@media screen and (max-width: 1200px){
-    .barbers_list {
-        max-width: 970px;
-    }
-}
-@media screen and (max-width: 992px){
-    .barbers_list {
-        max-width: 750px;
-    }
-}
-@media screen and (max-width: 767px){
-    .barbers_list {
-        max-width: none;
-    }
-}
-
-@media screen and (max-width: 200px) {
-    .barber_foto_container {
-        max-width: 160px;
+ @media screen and (max-width: 612px) {
+     .barber_container {
+        width: 100px;
+        height: 180px;
+        margin: 12px;
     }
 }
 
@@ -128,6 +106,14 @@
 @media screen and (max-width: 767px){
     .section_4 {
         max-width: none;
+    }
+}
+@media screen and (max-width: 729px) {
+    .gallery {
+        width: 180px;
+        height: 180px;
+        margin: 1px;
+        overflow: hidden;
     }
 }
 
