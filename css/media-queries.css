@@ -12,6 +12,10 @@
     .header {
         max-width: none;
     }
+    .locate__container {
+        top: 80px;
+        right: 6px;
+    }
 }
 @media screen and (max-width: 1200px){
     .section_2 {
