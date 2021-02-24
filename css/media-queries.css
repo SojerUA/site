@@ -13,19 +13,16 @@
         max-width: none;
     }
 }
-
 @media screen and (max-width: 1200px){
     .section_2 {
         max-width: 970px;
     }
 }
-
 @media screen and (max-width: 992px){
     .section_2 {
         max-width: 750px;
     }
 }
-
 @media screen and (max-width: 767px){
     .section_2 {
         max-width: none;
@@ -36,15 +33,13 @@
         margin: 24px 12px;
     }
 }
-
- @media screen and (max-width: 612px) {
+@media screen and (max-width: 612px) {
      .barber_container {
         width: 100px;
         height: 180px;
         margin: 12px;
     }
 }
-
 @media screen and (max-width: 1200px){
     .view_section2_label {
         max-width: 970px;
@@ -60,7 +55,6 @@
         max-width: none;
     }
 }
-
 @media screen and (max-width: 1200px){
     .footer_logo_section2 {
         max-width: 970px;
@@ -76,7 +70,6 @@
         max-width: none;
     }
 }
-
 @media screen and (max-width: 1200px){
     .section_3 {
         max-width: 970px;
@@ -92,7 +85,6 @@
         max-width: none;
     }
 }
-
 @media screen and (max-width: 1200px){
     .section_4 {
         max-width: 970px;
@@ -108,7 +100,6 @@
         max-width: none;
     }
 }
-
 @media screen and (max-width: 729px) {
     .gallery {
         width: 180px;
@@ -117,14 +108,12 @@
         overflow: hidden;
     }
 }
-
 @media screen and (max-width: 547px) {
     .gallery {
         width: 156px;
         height: 116px;
     }
 }
-
 @media screen and (max-width: 1200px){
     .section_5 {
         max-width: 970px;
@@ -140,8 +129,6 @@
         max-width: none;
     }
 }
-
-
 @media screen and(max-width: 1050px){
     .info_maps {
         max-width: 767px;
@@ -152,8 +139,6 @@
         max-width: 320px;
     }
 }
-
-
 @media screen and (max-width: 1200px){
     .sector_1 {
         max-width: 970px;
@@ -169,7 +154,6 @@
         max-width: none;
     }
 }
-
 @media screen and (max-width: 1200px){
     .sector_2 {
         max-width: 970px;
@@ -185,33 +169,27 @@
         max-width: none;
     }
 }
-
 @media screen and(max-width: 490px){
     .info_adress {
         max-width: none;
     }
 }
-
-
 @media screen and(max-width: 490px){
     .info_button {
         max-width: none;
     }
 }
-
 @media screen and(max-width: 490px){
     .tel_button {
         max-width: none;
     }
 }
-
 @media screen and(max-width: 490px){
     .mail_button {
         max-width: none;
     }
 }
-
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 480px) {
     .pulse {
         width: 50px;
         height: 50px;
