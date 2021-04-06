@@ -57,7 +57,7 @@
 @import "nullstyle.css";
 @import "media-queries.css";
 @import "fontawesome.css";
-@import"brands.css";
+@import "brands.css";
 
 $color_1: #ffffff;
 $color_2: #ffba00;
@@ -928,7 +928,7 @@ body {
     display: flex;
     width: 100px;
     height: 100px;
-    left: 10%;
+    left: 20%;
     top: 90%;
     text-decoration: none;
     transition: all .5s ease;
@@ -951,18 +951,6 @@ body {
             border-radius: 50%;
             animation: pulse 1.8s linear infinite;
         }
-        &:hover {
-            transform: rotate(90deg,90deg);
-            border-radius: 50%;
-            overflow: hidden;
-            width: 100px;
-            height: 100px;
-            background: url(/img/icobutton.png) no-repeat;
-            background-size: cover;
-            background-position: center;
-            opacity: 1;
-
-        }
         .text___pic {
             display: flex;
             border: 1px solid $color_2;
@@ -980,7 +968,7 @@ body {
             opacity: 1;
             transition: all .5s;
             &:hover {
-                opacity: 0;
+                opacity: 1;
             }
         }
     }
