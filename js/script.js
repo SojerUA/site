@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    $('.slider').slick({
+        arrows:false,
+        dots:true,
+        adaptiveHeight:true,
+        slidesToShow:3,
+        initialSlide:1,
+        autoplay:true,
+        autoplaySpeed:1000,
+        touchThreshold:10,
+        asNavFor:".slider_text,.slider_name"
+    });
+    $('.slider_text').slick({
+        slidesToShow:1,
+        fade:true,
+        adaptiveHeight:false
+    });
+    $('.slider_name').slick({
+        slidesToShow:1,
+        fade:true,
+        adaptiveHeight:false
+    });
+});
