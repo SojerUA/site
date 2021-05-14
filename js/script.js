@@ -6,7 +6,7 @@ $(document).ready(function(){
         slidesToShow:3,
         initialSlide:1,
         autoplay:true,
-        autoplaySpeed:1000,
+        autoplaySpeed:2000,
         touchThreshold:10,
         asNavFor:".slider_text,.slider_name"
     });
@@ -21,3 +21,42 @@ $(document).ready(function(){
         adaptiveHeight:false
     });
 });
+var height=$('#header').height();
+$(window).scroll(function(){
+   if($(this).scrollTop()>height){
+      $('.navbar').addClass('fixed');
+    }
+    else{
+      $('.navbar').removeClass('fixed');
+    }
+});
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 41.5876816, lng: -87.6700167 },
+    zoom: 13,
+  });
+    var marker = new google.maps.Marker({
+    position:{lat:41.5876816, lng:-87.6700167},
+    map:map
+});
+}
+
+$('.number_employer').each(function() {
+    $(this).prop('Counter',0).animate({
+        Counter:$(this).text()
+    },{
+        duration: 5000,
+        easing: 'swing',
+        step:function(now){
+        $(this).text(Math.ceil(now));
+    }
+    });
+})
+
+
+
+
+
+
+
+
