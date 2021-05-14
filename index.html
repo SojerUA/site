@@ -3,8 +3,9 @@
 <head>
     <title>DVL</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="/css/iconsfont.css">
+    <link rel="shortcut icon" href="/img/logo_icon_title.png" type="image/png">
 </head>
 <body>
     <section id="header">
@@ -18,52 +19,50 @@
             </div>
             <div class="blank">
                 <form action="" method="post" enctype="multipart/form-data">
-                    <p>I'm ready to roll!</p>
+                    <p class="marg_bot">I'm ready to roll!</p>
                     <div class="margin_form">
                         <div class="icon_block">
-                        <input placeholder="Full Name *" tabindex="1" name="username" type="text" class="all_form"><i class="far fa-user fa-xs"></i>
+                        <input placeholder="Full Name *" tabindex="1" name="username" type="text" class="all_form"><span class="position"> <i class="far fa-user fa-xs"></i></span>
                         </div>
                         <div class="icon_block">
-                        <input placeholder="E-mail *" tabindex="2" name="mail" type="text" class="all_form"><i class="far fa-envelope fa-xs"></i>
+                        <input placeholder="E-mail *" tabindex="2" name="mail" type="text" class="all_form"> <span class="position"><i class="far fa-envelope fa-xs"></i></span>
                         </div>
                         <div class="icon_block">
-                        <input placeholder="Phone *" tabindex="3" name="tel" type="tel" class="all_form"><i class="fas fa-phone-alt fa-xs"></i>
+                        <input placeholder="Phone *" tabindex="3" name="tel" type="tel" class="all_form"> <span class="position"><i class="fas fa-phone-alt fa-xs"></i></span>
                         </div>
                         <div class="icon_block">
                         <select class="all_form_option" id="value">
                             <option value="1">Do you have a valid CDL-A? *</option>
                             <option value="2">ValidTwo</option>
                             <option value="3">ValidTree</option>
-                        </select><i class="fas fa-angle-down fa-xs"></i>
+                        </select><span class="position_gal"><i class="fas fa-angle-down fa-xs"></i></span>
                         </div>
                         <input placeholder="" tabindex="4" id="file" type="file">
                             <label for="file" class="all_form_label">
-                            Upload your CDL <span class="position"> <i class="fas fa-file-upload fa-lg"></i></span>
+                            <span class="position_label">Upload your CDL</span><span class="position_file"><i class="fas fa-file-upload fa-lg"></i></span>
                             </label>
                     </div>
                     <label for="checkbox">
                     <div class="check_text">
-                        <input type="checkbox" name="first" id="checkbox" value="yes"><p>Yes, I agree to receive job alerts from DVL Express and those acting on its behalf. <span class="yellow_word">Show more</span></p>
+                        <input type="checkbox" name="first" id="checkbox" value="yes"><p class="text_check">Yes, I agree to receive job alerts from DVL Express and those acting on its behalf. <span class="yellow_word">Show more</span></p>
                     </div>
                     </label>
                     <label for="checkboxtwo">
                     <div class="check_text">
-                        <input type="checkbox" name="twoo" id="checkboxtwo" value="yes"><p>Yes, I agree to receive job alerts from DVL Express and those acting on its behalf. <span class="yellow_word">Show more</span></p>
+                        <input type="checkbox" name="twoo" id="checkboxtwo" value="yes"><p class="text_check">Yes, I agree to receive job alerts from DVL Express and those acting on its behalf. <span class="yellow_word">Show more</span></p>
                     </div>
                     </label>
-                    <input type="submit" name="submit" id="sub">
+                    <button type="submit" name="submit" id="sub">submit</button>
                 </form>
             </div>
         </div>
-        <span class="pos_one"><a href="#" class="color_wite"><i class="fas fa-angle-double-down fa-lg"></i></a></span>
+        <span class="pos_one"><a href="#second" class="color_wite"><i class="fas fa-angle-double-down fa-lg"></i></a></span>
     </section>
     <section id="second">
-       <form action="" method="post" enctype="multipart/form-data">
-        <div class="container_logo">
-            <img src="/img/DVL_logo_black.png" alt="#" class="logo">
-            <input type="submit" name="apply now" id="subm">
+        <div class="navbar lock-padding">
+            <img src="img/DVL_logo_black.png" alt="#" class="logo">
+            <a href="#popup" class="popup_link popup-link"><div class="button_aplly" id="subm">APPLY now</div></a>
         </div>
-        </form>
             <div class="head_title">
                 <h2>why you should work with us</h2>
                 <div class="underline"></div>
@@ -75,23 +74,33 @@
                 </div>
                 <div class="content_rightside">
                    <div class="contant_inner_right">
-                        <img src="/img/icon_track.png" alt="#">
+                        <div class="widt_pic">
+                            <img class="img_pic" src="img/icon_track.png" alt="#">
+                        </div>
                         <p class="margin_top">New Equipment</p>
                    </div>
                    <div class="contant_inner_right">
-                        <img src="/img/icon_clock.png" alt="#">
+                        <div class="widt_pic">
+                            <img class="img_pic" src="img/icon_clock.png" alt="#">
+                        </div>
                         <p class="margin_top">Reliable Despatch Service 24/7</p>
                    </div>
                    <div class="contant_inner_right">
-                        <img src="/img/icon_people.png" alt="#">
+                        <div class="widt_pic">
+                            <img class="img_pic" src="img/icon_people.png" alt="#">
+                        </div>
                         <p class="margin_top">A Great Job Opportunity</p>
                    </div>
                    <div class="contant_inner_right">
-                        <img src="/img/lorry.png" alt="#">
+                        <div class="widt_pic">
+                            <img class="img_pic" src="img/lorry.png" alt="#">
+                        </div>
                         <p class="margin_top">All Trailer Types</p>
                    </div>
                    <div class="contant_inner_right">
-                        <img src="/img/icon_file.png" alt="#">
+                        <div class="widt_pic">
+                            <img class="img_pic" src="img/icon_file.png" alt="#">
+                        </div>
                         <p class="margin_top">W2 Option</p>
                    </div>
                 </div>
@@ -99,12 +108,6 @@
         </div>
     </section>
     <section id="three">
-        <form action="" method="post" enctype="multipart/form-data">
-        <div class="container_logo">
-            <img src="/img/DVL_logo_black.png" alt="#" class="logo">
-            <input type="submit" name="apply now" id="subm">
-        </div>
-        </form>
         <div class="heder_part">
             <div class="head_title">
                 <h2>WE PROUD OF OUR RESULTS</h2>
@@ -113,7 +116,7 @@
             <div class="container">
                 <div class="all_content">
                     <div class="left_side_video">
-                       <img class="same_pic" src="/img/video_guy.png" alt="@">
+                       <img class="same_pic" src="img/video_guy.png" alt="@">
                         <a href="#" class="video_button"></a>
                     </div>
                     <div class="right_side_content">
@@ -124,15 +127,18 @@
         </div>
     <div class="view_background">
         <div class="content_inner">
-            <div class="number_employer">650+
+            <div class="number_count">
+                <div class="number_employer">650</div>
                 <div class="underline_yel"></div>
                 <div class="employees">Units of equipment on our Fleet</div>
             </div>
-            <div class="number_employer">500+
+            <div class="number_count">
+                <div class="number_employer">500</div>
                 <div class="underline_yel"></div>
                 <div class="employees">Employees</div>
             </div>
-            <div class="number_employer">2,000+
+            <div class="number_count">
+                <div class="number_employer">2000</div>
                 <div class="underline_yel"></div>
                 <div class="employees">Trust & Reliability Contacts</div>
             </div>
@@ -140,12 +146,6 @@
     </div>
     </section>
     <section id="fourth">
-        <form action="" method="post" enctype="multipart/form-data">
-        <div class="container_logo">
-            <img src="/img/DVL_logo_black.png" alt="#" class="logo">
-            <input type="submit" name="apply now" id="subm">
-        </div>
-        </form>
         <div class="head_title">
                 <h2>our directions</h2>
                 <div class="underline"></div>
@@ -154,7 +154,9 @@
             <div class="all_content">
                 <div class="left_side">
                     <div class="cares">
-                        <img src="/img/cares.png" alt="#">
+                        <div class="cares_img">
+                            <img class="img_pic" src="img/cares.png" alt="#">
+                        </div>
                         <div class="block_text">
                             <div class="title_colum">
                                 <h3>DVL cares</h3>
@@ -163,7 +165,9 @@
                         </div>
                     </div>
                     <div class="cares">
-                        <img src="/img/investor%20.png" alt="#">
+                        <div class="cares_img">
+                            <img class="img_pic" src="img/investor%20.png" alt="#">
+                        </div>
                         <div class="block_text">
                         <div class="title_colum">
                             <h3>Referral programe</h3>
@@ -175,40 +179,131 @@
                         <div class="title_colum">
                             <h3>Add your flag</h3>
                         </div>
-                        <img src="/img/flags/BEL.png" alt="flag">
-                        <img src="/img/flags/BOL.png" alt="flag">
-                        <img src="/img/flags/BBW.png" alt="flag">
-                        <img src="/img/flags/SWE.png" alt="flag">
-                        <img src="/img/flags/KAZ.png" alt="flag">
-                        <img src="/img/flags/RY.png" alt="flag">
-                        <img src="/img/flags/SUN.png" alt="flag">
-                        <img src="/img/flags/ITA.png" alt="flag">
-                        <img src="/img/flags/RUMB.png" alt="flag">
-                        <img src="/img/flags/RB.png" alt="flag">
-                        <img src="/img/flags/POL.png" alt="flag">
-                        <img src="/img/flags/RUM.png" alt="flag">
-                        <img src="/img/flags/RUST.png" alt="flag">
-                        <img src="/img/flags/RUS.png" alt="flag">
-                        <img src="/img/flags/TUR.png" alt="flag">
-                        <img src="/img/flags/TURY.png" alt="flag">
-                        <img src="/img/flags/USA.png" alt="flag">
-                        <img src="/img/flags/BWG.png" alt="flag">
-                        <img src="/img/flags/UKR.png" alt="flag">
+                        <div class="in_fl">
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/BEL.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">belorussia</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/BOL.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">bulgaria</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/BBW.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">estonia</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/SWE.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">georgia</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/KAZ.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">kazahstan</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/RY.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">kyrgyzstan</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/SUN.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">makedonia</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/ITA.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">mexico</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/RUMB.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">moldova</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/RB.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">mongolia</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/POL.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">poland</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/RUM.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">romania</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/RUST.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">russia</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/RUS.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">serbia</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/TUR.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">turkey</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/TURY.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">turkmenistan</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/USA.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">USA</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/BWG.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">Uzbekistan</span> </div>
+                            </div>
+                            <div class="disp_flag">
+                                <div class="flag">
+                                    <img src="img/flags/UKR.png" alt="flag">
+                                </div>
+                                <div class="name_flags"> <span class="name">ukraine</span> </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="rigth_side">
-                    <img src="/img/Group.png" class="position_pic" alt="map">
+                    <img src="img/Group.png" class="position_pic" alt="map">
                 </div>
             </div>
         </div>
     </section>
     <section id="fiveth">
-        <form action="" method="post" enctype="multipart/form-data">
-        <div class="container_logo">
-            <img src="/img/DVL_logo_black.png" alt="#" class="logo">
-            <input type="submit" name="apply now" id="subm">
-        </div>
-        </form>
         <div class="head_title">
             <h2>FAST HIRING</h2>
             <div class="underline"></div>
@@ -226,18 +321,12 @@
                 </ul>
                 </div>
                 <div class="video">
-                    <img src="/img/smile_guy.png" alt="#">
+                    <img src="img/smile_guy.png" alt="#">
                 </div>
             </div>
         </div>
     </section>
     <section id="sixth">
-        <form action="" method="post" enctype="multipart/form-data">
-        <div class="container_logo">
-            <img src="/img/DVL_logo_black.png" alt="#" class="logo">
-            <input type="submit" name="apply now" id="subm">
-        </div>
-        </form>
         <div class="head_title">
             <h2>Choose Your Path</h2>
             <div class="underline"></div>
@@ -245,39 +334,45 @@
         <div class="container">
             <div class="content_inner">
                 <div class="box_info">
-                    <img src="/img/icon_track.png" alt="pic" class="box_size">
-                    <p>Regional driver</p>
+                    <div class="widt_pic">
+                        <img class="img_pic" src="img/icon_track.png" alt="pic">
+                    </div>
+                    <p class="pading_top">Regional driver</p>
                 </div>
                 <div class="box_info">
-                    <img src="/img/road.png" alt="pic" class="box_size">
-                    <p>Over-the-road driver</p>
+                    <div class="widt_pic">
+                        <img class="img_pic" src="img/road.png" alt="pic">
+                    </div>
+                    <p class="pading_top">Over-the-road driver</p>
                 </div>
                 <div class="box_info">
-                    <img src="/img/track_side.png" alt="pic" class="box_size">
-                    <p>Straight truck driver</p>
+                    <div class="widt_pic">
+                        <img class="img_pic" src="img/track_side.png" alt="pic">
+                    </div>
+                    <p class="pading_top">Straight truck driver</p>
                 </div>
                 <div class="box_info">
-                    <img src="/img/driver.png" alt="pic" class="box_size">
-                    <p>Owner operator</p>
+                   <div class="widt_pic">
+                        <img class="img_pic" src="img/driver.png" alt="pic">
+                    </div>
+                    <p class="pading_top">Owner operator</p>
                 </div>
                 <div class="box_info">
-                    <img src="/img/track_twoo.png" alt="pic" class="box_size">
-                    <p>Leasing option</p>
+                    <div class="widt_pic">
+                        <img class="img_pic" src="img/track_twoo.png" alt="pic">
+                    </div>
+                    <p class="pading_top">Leasing option</p>
                 </div>
                 <div class="box_info">
-                    <img src="/img/map_check.png" alt="pic" class="box_size">
-                    <p>Local driver</p>
+                    <div class="widt_pic">
+                        <img class="img_pic" src="img/map_check.png" alt="pic">
+                    </div>
+                    <p class="pading_top">Local driver</p>
                 </div>
             </div>
         </div>
     </section>
     <section id="seventh">
-        <form action="" method="post" enctype="multipart/form-data">
-        <div class="container_logo_seven">
-        <img src="/img/DVL_logo_black.png" alt="#" class="logo">
-        <input type="submit" name="apply now" id="subm">
-        </div>
-        </form>
         <div class="head_title">
             <h2>Take your choice from our wide opportunities</h2>
             <div class="underline"></div>
@@ -304,12 +399,6 @@
         </div>
     </section>
     <section id="eighth">
-        <form action="" method="post" enctype="multipart/form-data">
-        <div class="container_logo_color">
-        <img src="/img/DVL_logo_black.png" alt="#" class="logo">
-        <input type="submit" name="apply now" id="subm">
-        </div>
-        </form>
         <div class="head_title">
             <h2 class="color">Testimonials</h2>
             <div class="underline"></div>
@@ -332,58 +421,149 @@
             </div>
             <div class="slider">
                 <div class="slider_item">
-                    <img class="img_change" src="/img/Photo_one.png" alt="#">
+                    <img class="img_change" src="img/Photo_one.png" alt="#">
                 </div>
                 <div class="slider_item">
-                    <img class="img_change" src="/img/Photo_two.png" alt="#">
+                    <img class="img_change" src="img/Photo_two.png" alt="#">
                 </div>
                 <div class="slider_item">
-                    <img class="img_change_one" src="/img/Photo_thre.png" alt="#">
+                    <img class="img_change_one" src="img/Photo_thre.png" alt="#">
                 </div>
                 <div class="slider_item">
-                    <img class="img_change" src="/img/Photo_four.png" alt="#">
+                    <img class="img_change" src="img/Photo_four.png" alt="#">
                 </div>
                 <div class="slider_item">
-                    <img class="img_change" src="/img/Photo_five.png" alt="#">
+                    <img class="img_change" src="img/Photo_five.png" alt="#">
                 </div>
             </div>
             <div class="slider_name">
                 <div class="slider_text_item_name">
-                    <p>Kruvenca Cachechca <br>recruter</p>
+                    <p>Kruvenca Cachechca</p><p class="position">recruter</p>
                 </div>
-                <div class="slider_text_item">
-                    <p>Omar Hampton <br>driver</p>
+                <div class="slider_text_item_name">
+                    <p>Omar Hampton</p><p class="position">driver</p>
                 </div>
-                <div class="slider_text_item">
-                    <p>Petjca Mandarun <br>janitor</p>
+                <div class="slider_text_item_name">
+                    <p>Petjca Mandarun</p><p class="position">janitor</p>
                 </div>
-                <div class="slider_text_item">
-                    <p>Vasja Pupceen <br>driver</p>
+                <div class="slider_text_item_name">
+                    <p>Vasja Pupceen </p><p class="position">driver</p>
                 </div>
-                <div class="slider_text_item">
-                    <p>Vasuluna Tobi Gluna <br>SMM</p>
+                <div class="slider_text_item_name">
+                    <p>Vasuluna Tobi Gluna </p><p class="position">SMM</p>
                 </div>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="js/slick.min.js"></script>
         <script src="js/script.js"></script>
+        <script src="js/popup.js"></script>
     </section>
     <section id="nineth">
-        <form action="" method="post" enctype="multipart/form-data">
-        <div class="container_logo">
-        <img src="/img/DVL_logo_black.png" alt="#" class="logo">
-        <input type="submit" name="apply now" id="subm">
-        </div>
-        </form>
         <div class="head_title">
             <h2>Contacts</h2>
             <div class="underline"></div>
         </div>
         <div class="container">
-            <div class="all_content"></div>
+            <div class="all_content">
+                <div class="left_side">
+                    <div class="content">
+                        <p>Driving Positions are opened! If you’re a professional Driver and think
+you have what it takes, send your information and details to <a href="#"><span class="yellow">hr@dvlexpress.com</span></a> and we will get back you soon.
+</p>
+                    </div>
+                    <div class="adress">
+                        <span class="icon"><i class="fas fa-map-marker-alt"></i><p class="mar_left">address</p></span>
+                        <p class="mar_all">2064 W 167th St Unit A, Markham, IL 60428</p>
+                        <p class="mar_all">2201 Roosevelt Ave South Plainfield, NJ 07080</p>
+                    </div>
+                    <div class="phone">
+                        <span class="icon"><i class="fas fa-phone"></i><p class="mar_left">phone</p></span>
+                        <p class="mar_all">866 225 5385</p>
+                        <p class="mar_all">708 776 1651</p>
+                    </div>
+                </div>
+                <div class="right_side">
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <div class="dis_flex">
+                        <div class="icon_block_x">
+                            <input placeholder="Full Name *" tabindex="4" name="username" type="text" class="all_form_fotter"><span class="position"> <i class="far fa-user fa-xm"></i></span>
+                        </div>
+                        <div class="icon_block_x">
+                            <input placeholder="E-mail *" tabindex="5" name="mail" type="text" class="all_form_fotter"> <span class="position"><i class="far fa-envelope fa-xm"></i></span>
+                        </div>
+                        </div>
+                        <div class="icon_block_x">
+                            <textarea placeholder="Your Massege" name="Your Message" id="you_message"></textarea>
+                        </div>
+                        <div class="button_right">
+                            <button type="submit" name="submit" id="sub">send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
+        <div id="map"></div>
+        <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf59R9TKWjXj6qjpg_ZBmBpDfpjg5UH-A&callback=initMap">
+        </script>
     </section>
+    <div id="popup" class="popup">
+        <a href="#popup_form" class="popup_area"></a>
+        <div class="popup_body">
+            <div class="popup_content">
+                <a href="#popup_form" class="popup_close close-popup"><i class="fas fa-times-circle fa-2x"></i></a>
+                <div id="popup_form" class="blank">
+                <form action="" method="post" enctype="multipart/form-data">
+                    <p class="marg_bot">I'm ready to roll!</p>
+                    <div class="margin_form">
+                        <div class="icon_block">
+                            <input placeholder="Full Name *" tabindex="1" name="username" type="text" class="all_form"><span class="position"> <i class="far fa-user fa-xs"></i></span>
+                        </div>
+                        <div class="icon_block">
+                            <input placeholder="E-mail *" tabindex="2" name="mail" type="text" class="all_form"> <span class="position"><i class="far fa-envelope fa-xs"></i></span>
+                        </div>
+                        <div class="icon_block">
+                            <input placeholder="Phone *" tabindex="3" name="tel" type="tel" class="all_form"> <span class="position"><i class="fas fa-phone-alt fa-xs"></i></span>
+                        </div>
+                        <div class="icon_block">
+                        <select class="all_form_option" id="value">
+                            <option value="1">Do you have a valid CDL-A? *</option>
+                            <option value="2">ValidTwo</option>
+                            <option value="3">ValidTree</option>
+                        </select><span class="position_gal"><i class="fas fa-angle-down fa-xs"></i></span>
+                        </div>
+                        <input placeholder="" tabindex="4" id="file" type="file">
+                            <label for="file" class="all_form_label">
+                            <span class="position_label">Upload your CDL</span><span class="position_file"><i class="fas fa-file-upload fa-lg"></i></span>
+                            </label>
+                    </div>
+                    <label for="checkbox_popup">
+                    <div class="check_text">
+                        <input type="checkbox" name="first" id="checkbox_popup" value="yes"><p class="text_check">Yes, I agree to receive job alerts from DVL Express and those acting on its behalf. <span class="yellow_word">Show more</span></p>
+                    </div>
+                    </label>
+                    <label for="checkboxtwo_popup">
+                    <div class="check_text">
+                        <input type="checkbox" name="twoo" id="checkboxtwo_popup" value="yes"><p class="text_check">Yes, I agree to receive job alerts from DVL Express and those acting on its behalf. <span class="yellow_word">Show more</span></p>
+                    </div>
+                    </label>
+                    <button type="submit" name="submit" id="sub">submit</button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="img_logo">
+            <img src="/img/DVL_logo_footer.png" alt="#">
+        </div>
+        <div class="sosial">
+            <a href="https://www.facebook.com/dvlexpress/" id="sosial"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="https://www.instagram.com/dvlexpress/?hl=en" id="sosial"><i class="fab fa-instagram-square fa-2x"></i></a>
+            <a href="https://drive4dvl.com/?gclid=CjwKCAjw7diEBhB-EiwAskVi1w_x5hMC28ZZcdm7cOCCohnI6mKMPc6Fk1PpWBHeAiuaD1EOGrxR_BoCjSYQAvD_BwE" id="sosial"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
 
