@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 #header {
-  background-image: url("/img/TrackDVLbg.png");
+  background-image: url("../img/TrackDVLbg.png");
   background-size: cover;
   height: 100vh;
   color: #ffffff;
@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #second {
-  background: url("/img/view_two.png") no-repeat;
+  background: url("../img/view_two.png") no-repeat;
   background-position-x: center;
   background-position-y: 11%;
   background-size: cover;
@@ -428,7 +428,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #1D2123;
 }
 #three .view_background {
-  background: url(/img/Bacg_track.png) no-repeat;
+  background: url("../img/Bacg_track.png") no-repeat;
   background-size: cover;
   background-position: bottom;
 }
@@ -576,7 +576,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fourth .all_content .right_side {
   margin: 20px 0px;
-  background-image: url(/img/map.png);
+  background-image: url("../img/map.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -589,7 +589,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fiveth {
-  background: url(/img/wood.png);
+  background: url("../img/wood.png");
   background-size: cover;
   background-position: center;
 }
@@ -612,7 +612,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 33px;
   height: 19px;
   display: inline-block;
-  background: url(/img/gal.png);
+  background: url("../img/gal.png");
   position: relative;
   left: -10%;
   margin: 0px -33px 0px 0px;
@@ -626,7 +626,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #sixth {
-  background: url(/img/road_bacground.png);
+  background: url("../img/road_bacground.png");
   background-size: cover;
   background-position: center;
 }
@@ -669,7 +669,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #seventh {
-  background: url(/img/mount_seven.png);
+  background: url("../img/mount_seven.png");
   background-size: cover;
 }
 #seventh .all_content {
@@ -921,7 +921,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slider_text {
-  background: url(/img/Icon.png) no-repeat;
+  background: url("../img/Icon.png") no-repeat;
   background-position: center;
   padding-top: 35px;
   width: 850px;
